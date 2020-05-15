@@ -3,9 +3,29 @@
         {
             "path": "force-app",
             "default": true
+        },
+        {
+            "path": "dreamhouse-app",
+            "default": false,
+            "package": "DreamHouse",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "easyspaces-app",
+            "default": false,
+            "package": "EasySpaces",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://amazing-appy-304010.my.salesforce.com/",
-    "sourceApiVersion": "48.0"
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "DreamHouse": "0Ho2x000000TNExCAO",
+        "DreamHouse@0.1.0-1": "04t2x000001d0UHAAY",
+        "EasySpaces": "0Ho2x000000TNF2CAO",
+        "EasySpaces@0.1.0-1": "04t2x000001d0ksAAA"
+    }
 }
